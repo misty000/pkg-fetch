@@ -119,4 +119,4 @@ review.
 
 For example:
 
-`yarn start --node-range node18 --arch x64 --output dist`
+`yarn start --node-range node18 --arch x64 --force-build true --output dist`

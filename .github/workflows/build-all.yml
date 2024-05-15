@@ -9,14 +9,6 @@ on:
         type: boolean
 
 jobs:
-  build-alpine:
-    uses: ./.github/workflows/build-alpine.yml
-  build-linux:
-    uses: ./.github/workflows/build-linux.yml
-  build-linuxstatic:
-   uses: ./.github/workflows/build-linuxstatic.yml
-  build-macos:
-   uses: ./.github/workflows/build-macos.yml
   build-windows:
    uses: ./.github/workflows/build-windows.yml
 
